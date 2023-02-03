@@ -23,12 +23,15 @@ body {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4f4f4f', endColorstr='#131313',GradientType=0 ); /* IE6-8 */
   font-family: 'Avenir Next Condensed', 'Arial Narrow', sans-serif;
   font-size: 100%;
+  -webkit-text-fill-color: black;
+  -webkit-text-stroke-color: black;
 }
 
-h1 {
-  font-size: 12.25em;
+h4 {
+  font-weight: lighter;
+  font-size: 0.8em;
   line-height: 1em;
-  letter-spacing: .03em;
+  letter-spacing: 0.4em;
   margin-bottom: 2px;
 }
 
@@ -37,28 +40,52 @@ h2 {
   line-height: 1em;
   letter-spacing: .03em;
   margin-bottom: 2px;
+  font-weight: bolder
 }
 
 h3 {
-  font-weight: normal;
-  letter-spacing: .3em;
+  font-weight: lighter;
+  font-size: 0.3;
+  letter-spacing: 0.9;
   margin-bottom: 18px;
   line-height: 1em;
 }
 
 h4 {
+  font-weight: lighter;
+  font-size: 0.7em;
+  letter-spacing: 0.4em;
+  margin-bottom: 9px;
+  line-height: 1em;
+}
+
+h6 {
   font-weight: normal;
-  font-size: .7em;
+  font-size: .9em;
   letter-spacing: .4em;
   margin-bottom: 9px;
   line-height: 1em;
 }
 
 p {
-  font-size: .9em;
-  line-height: 1.8em;
-  letter-spacing: .103em;
-  margin-bottom: 15px;
+  font-size: 0.7em;
+  line-height: 2em;
+  letter-spacing: .17em;
+  /* margin-bottom: 15px; */
+}
+
+#happy {
+  font-weight: bolder;
+  font-size: 4.5em;
+  letter-spacing: .05em;
+
+}
+
+#happyback {
+  font-weight: bolder;
+  font-size: 11em;
+  letter-spacing: .05em;
+
 }
 
 span {
@@ -109,4 +136,7 @@ img {
   background: rgba(247,211,27,1);
   margin-left: 163px;
   padding-top: 25px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
